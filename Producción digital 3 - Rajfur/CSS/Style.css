@@ -108,9 +108,9 @@ margin-bottom: 2rem;
 
 .fondo {
     background-image: url("../Fotos/Fondo contactanos.jpg");
-    padding-top: 90px;
-    padding-bottom: 90px;
-    min-height: 500px;
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+    min-height: 31.25;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,8 +204,6 @@ margin-bottom: 2rem;
     font-weight: 700;
 }
 
-  
- 
   .email {
       float: right;
       width: 45%;
@@ -230,15 +228,10 @@ margin-bottom: 2rem;
       padding: 0 0 0.875em 0;
   }
   
-
-  
   .name {
       float: left;
       width: 45%;
   }
-  
-  
-
   
   .subject {
     width: 100%;
@@ -250,9 +243,9 @@ margin-bottom: 2rem;
   
   textarea {
       line-height: 150%;
-      height: 150px;
+      height: 9.3rem;
       resize: none;
-    width: 100%;
+      width: 100%;
   }
   
   ::-webkit-input-placeholder {
@@ -278,49 +271,10 @@ margin-bottom: 2rem;
     color: #F2F3EB;
   }
   
-  @media screen and (max-width: 768px) {
-    #container {
-      margin: 20px auto;
-      width: 95%;
-    }
-  }
   
-  @media screen and (max-width: 480px) {
-    h1 {
-      font-size: 26px;
-    }
-    
-    .underline {
-      width: 68px;
-    }
-    
-    #form_button {
-      padding: 15px 25px;
-    }
-  }
-  
-  @media screen and (max-width: 420px) {
-    h1 {
-      font-size: 18px;
-    }
-    
-    .icon {
-      height: 35px;
-      width: 35px;
-    }
-    
-    .underline {
-      width: 53px;
-    }
-    
-    input[type='text'], [type='email'], select, textarea {
-      font-size: 0.875em;
-    }
-  }
 /*Final contactanos*/
 
 /*Principio obras célebres*/
-
 
 .footerObras {
     background-color: #D8C45E;
@@ -332,6 +286,7 @@ margin-bottom: 2rem;
 .galeria {
   margin-top: 1rem;
 }
+
 .BotonesArtistas {
  background-color: #F6F6F6; 
  padding-top: 1.5rem;
@@ -358,7 +313,6 @@ margin-bottom: 2rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
   align-items: start;
- 
 }
 
 .BotonMonet {
@@ -369,7 +323,6 @@ margin-bottom: 2rem;
   text-decoration: none;
   color: black;
   display: inline-block;
- 
 }
 
 .BotonesArtistas:hover {
@@ -478,7 +431,6 @@ margin-top: 2rem;
   background-size: cover;
 }
 
-
 .BotonObras {
   background-color: #5072C9;
   justify-content: center;
@@ -518,7 +470,6 @@ margin-top: 2rem;
 /*Principio Sobre la vanguardia*/
 
 .parrafoA {
-
   flex-direction: column;
   justify-content: center;
   font-family: 'raleway';
@@ -530,7 +481,6 @@ margin-top: 2rem;
   margin-right: 0;
   padding-right: 0%;
   right: 0;
-
 }
 
 .parrafoB {
@@ -603,7 +553,47 @@ footer img{
 
 /*Final footer*/
 
+/*Inicio arreglo contacto*/
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
 
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+/*Final arreglo contacto*/
 
 @media (min-width: 416px) {
 /*Inicio arreglo home*/
